@@ -7,6 +7,38 @@ body {
   color: #333;
 }
 
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0a0000;
+  margin: 20px auto;
+  display: block;
+}
+
+#education {
+  padding: 40px;
+  background-color: #f8e5f5;
+  border-radius: 12px;
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#education ul {
+  list-style: none;
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
 h1, h2 {
   color: #0771ea;
   text-align: center;
